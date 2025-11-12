@@ -1,0 +1,59 @@
+URL,Headers,Subject,Body,Label
+http://secure-paypal.example/verify,"From: service@paypal.example
+Received: from mail.example.com",Verify your PayPal account,"Dear user, we detected unusual activity. Verify your account at http://secure-paypal.example/verify",phish
+http://bank-login.example/account,"From: alerts@bank.example
+Received: from smtp.example.com",Your account has been limited,Your bank account has been limited. Login now: http://bank-login.example/account,phish
+http://apple-support.example/update,"From: support@apple.example
+Received: from mail.example.com",Urgent: Update your Apple ID,We detected suspicious login. Update at http://apple-support.example/update,phish
+http://secure-microsoft.example/confirm,"From: microsoft@notify.example
+Received: from smtp.example.com",Confirm your Microsoft account,Click here to confirm: http://secure-microsoft.example/confirm,phish
+http://free-gift.example/redeem,"From: deals@example.com
+Received: from mail.example.net",You've won a free gift!,Redeem your gift now: http://free-gift.example/redeem,phish
+http://login-update.example/user,"From: admin@update.example
+Received: from relay.example.com",Update required for your account,Please update your details here: http://login-update.example/user,phish
+http://paypal-security.example/verify,"From: security@paypal.example
+Received: from smtp.example.com",Security alert: verify account,Verify: http://paypal-security.example/verify,phish
+http://invoice-pay.example/pay,"From: billing@service.example
+Received: from mail.example.com",Unpaid invoice - pay now,Pay invoice: http://invoice-pay.example/pay,phish
+http://secure-cloud.example/access,"From: cloud@service.example
+Received: from mail.example.com",Access suspended - verify,Your cloud access suspended. Verify at http://secure-cloud.example/access,phish
+http://auth-login.example/secure,"From: auth@service.example
+Received: from smtp.example.com",Important: re-authenticate,Please re-authenticate: http://auth-login.example/secure,phish
+http://confirm-appleid.example/check,"From: appleid@apple.example
+Received: from relay.example.com",Confirm your Apple ID now,Confirm at http://confirm-appleid.example/check,phish
+http://ebay-secure.example/signin,"From: eBay@notifications.example
+Received: from mail.example.org",Sign in to your account,Sign in here: http://ebay-secure.example/signin,phish
+http://secure-dropbox.example/verify,"From: dropbox@notify.example
+Received: from smtp.example.com",Verify storage access,Verify at http://secure-dropbox.example/verify,phish
+http://amazon-verify.example/confirm,"From: support@amazon.example
+Received: from mail.example.com",Order issue - confirm your account,Confirm here: http://amazon-verify.example/confirm,phish
+http://account-update.example/reset,"From: noreply@service.example
+Received: from smtp.example.com",Reset your password immediately,Reset now: http://account-update.example/reset,phish
+https://www.example.com/home,"From: newsletter@example.com
+Received: from mail.example.com",Welcome to Example,Thanks for signing up to Example. Visit https://www.example.com/home,legit
+https://docs.python.org/3/,"From: docs@python.org
+Received: from docs.python.org",Python 3 Documentation,Access docs at https://docs.python.org/3/,legit
+https://www.google.com/search?q=python,"From: alerts@google.com
+Received: from mail.google.com",Google Search Results,Search at https://www.google.com/,legit
+https://github.com/,"From: notifications@github.com
+Received: from github.com",New repository updates,See updates at https://github.com/,legit
+https://www.wikipedia.org/,"From: info@wikipedia.org
+Received: from mail.wikipedia.org",Wikipedia featured article,Read at https://www.wikipedia.org/,legit
+https://openai.com/blog/,"From: blog@openai.com
+Received: from mail.openai.com",OpenAI blog update,Read the latest at https://openai.com/blog/,legit
+https://www.bank-example.org/secure,"From: alerts@bank-example.org
+Received: from bank-example.org",Account statement available,View your statement at https://www.bank-example.org/secure,legit
+https://support.mozilla.org/,"From: support@mozilla.org
+Received: from mail.mozilla.org",Firefox support article,Help at https://support.mozilla.org/,legit
+https://www.microsoft.com/en-us/,"From: info@microsoft.com
+Received: from mail.microsoft.com",Microsoft news,Visit https://www.microsoft.com/en-us/,legit
+https://news.ycombinator.com/,"From: news@ycombinator.com
+Received: from hn.ycombinator.com",Top Hacker News,See top stories at https://news.ycombinator.com/,legit
+https://www.djangoproject.com/,"From: team@djangoproject.com
+Received: from mail.djangoproject.org",Django release,Details at https://www.djangoproject.com/,legit
+https://stackoverflow.com/questions,"From: team@stackoverflow.com
+Received: from stackoverflow.com",New answers on Stack Overflow,View at https://stackoverflow.com/questions,legit
+https://www.linkedin.com/,"From: updates@linkedin.com
+Received: from mail.linkedin.com",Your network updates,Visit https://www.linkedin.com/ to view updates,legit
+https://www.youtube.com/,"From: notifications@youtube.com
+Received: from mail.youtube.com",New video recommendations,Watch at https://www.youtube.com/,legit
